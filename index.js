@@ -2,22 +2,25 @@
 
 var katzDeli = [];
 
-function takeANumber (DeliLine, name) {
+function takeANumber (DeliLine) {
 
-  for(var i = 0; i<=DeliLine.length;i++) {
+var i = 1; 
+  //for(var i = 0; i<=DeliLine.length;i++) {
 
-  DeliLine.push(name);
+  DeliLine.push([i]);
 
+  i++
 
-  return "Welcome, " + name + ". You are number " + DeliLine.length +  " in line."
-  }
+  return  "You are number " + [i] 
+//  }
+
 }
 
 
 function currentLine(DeliLine) {
   //To Iterate over array I created a new array.
 var newArray = [];
-
+//!0 Truey and thus will execute when array has legnth 0.
 if (!DeliLine.length) {
   return "The line is currently empty."
 }
@@ -33,7 +36,7 @@ return "The line is currently: " + newArray.join(", ")
 
 function nowServing (DeliLine) {
 
-  //If length is 0, !DeliLine.length will be True and execute.
+
   if (!DeliLine.length) {
     return "There is nobody waiting to be served!"
   }
