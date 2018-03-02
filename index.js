@@ -9,9 +9,9 @@ function takeANumber (DeliLine, name) {
 
   DeliLine.push([n] + name);
 
-  n++
+  n++;
 
-  return  `Welcome, ${name}. You are number ${[n-1]} in line. `
+  return  `Welcome, ${name}. You are number ${[n-1]} in line.`
 
 
 }
