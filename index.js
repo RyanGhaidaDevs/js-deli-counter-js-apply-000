@@ -7,7 +7,7 @@ var n = 1;
 function takeANumber (DeliLine, name) {
 
 
-  DeliLine.push([n] + name);
+  DeliLine.push(name);
 
   n++;
 
