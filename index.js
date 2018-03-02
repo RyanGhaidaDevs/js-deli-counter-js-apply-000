@@ -26,7 +26,7 @@ if (!DeliLine.length) {
 
 for(var i = 0; i<DeliLine.length;i++) {
 
-newArray.push([i+1] + ". " + DeliLine[i] + " ")
+newArray.push([i+1] + ". " + DeliLine[i] + "")
  console.log(newArray)
 }
 
