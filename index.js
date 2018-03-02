@@ -30,7 +30,7 @@ newArray.push([i+1] + ". " + DeliLine[i] + "")
  console.log(newArray)
 }
 
-return "The line is currently: " + newArray.join()
+return "The line is currently: " + newArray.join("")
 }
 
 
