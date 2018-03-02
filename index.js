@@ -2,17 +2,16 @@
 
 var katzDeli = [];
 
-function takeANumber (DeliLine) {
+function takeANumber (DeliLine, name) {
 
-var i = 1; 
-  //for(var i = 0; i<=DeliLine.length;i++) {
+  var i = 1;
 
   DeliLine.push([i]);
 
   i++
 
-  return  "You are number " + [i] 
-//  }
+  return  `Welcome, ${name}. You are number i` 
+
 
 }
 
