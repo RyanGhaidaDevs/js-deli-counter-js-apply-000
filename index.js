@@ -10,7 +10,7 @@ function takeANumber (DeliLine, name) {
 
   i++
 
-  return  `Welcome, ${name}. You are number ${i} in line. ` 
+  return  `Welcome, ${name}. You are number ${i} in line. `
 
 
 }
