@@ -2,15 +2,16 @@
 
 var katzDeli = [];
 
+var n = 1;
+
 function takeANumber (DeliLine, name) {
 
-  var i = 1;
 
-  DeliLine.push([i] + name);
+  DeliLine.push([n] + name);
 
-  i++
+  n++
 
-  return  `Welcome, ${name}. You are number ${[i-1]} in line. `
+  return  `Welcome, ${name}. You are number ${[n-1]} in line. `
 
 
 }
